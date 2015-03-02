@@ -1,0 +1,11 @@
+<form class="Contact Form" id="form">
+<p class="Name">
+<input name="Name" type="text" class="contact-input" placeholder="Name" id="Name"/>
+</p>
+<p class="Email">
+<input name="Email" type="text" class="contact-input" placeholder="Email" id="Email"/>
+</p>
+<p class="Comment">
+<input name="Comment" type="text" class="contact-input" placeholder="Comment" id="Comment"/>
+</p>
+</form>
