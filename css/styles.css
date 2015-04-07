@@ -5,7 +5,7 @@ background-size: 100% auto;
 background-repeat: repeat;
 }
 body {
-font-family: Helvetica, serif;
+font-family: Helvetica, serif, cursive;
 }
 h1 {
 text-align: center;
@@ -20,7 +20,7 @@ width: 200px;
 height: 200px;
 }
 .top-p {
-text-align: center;
+text-align: justify;
 margin-top: 5%;
 margin-left: 20%;
 margin-right: 20%;
@@ -28,7 +28,7 @@ line-height: 2em;
 color: #FFF;
 }
 .bot-p {
-text-align: center;
+text-align: justify;
 margin-top: 3%;
 margin-left: 20%;
 margin-right: 20%;
