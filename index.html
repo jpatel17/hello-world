@@ -11,7 +11,6 @@
 <meta name="keywords" content="html, css, portfolio, resume, web design"/>
 <meta property="og:tittle" content="My website"/>
 <meta property="og:type" content="Website"/>
-<meta property="og:image" content=
 <meta property="og:url" content="https://www.facebook.com/jay.patel.714"/>
 <meta property="og:description" content="My Facebook Profile"/>
 
@@ -21,251 +20,674 @@ background-image:url("img/background-image.png");
 }
 
 
-<!-- Custom, iPhone Retina */-->
-@media only screen and (min-width : 320px)
+html {
+background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+url(../img/wooden-floor.png) no-repeat center center fixed;
+background-size: 100% auto;
+background-repeat: repeat;
+}
+body {
+font-family: Helvetica, serif, cursive;
+width: 100%;
+height: 100%;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px)
+{
+h1 {
+text-align: center;
+font-size : 1em;
+margin-top: 5%;
+color: #FFF;
+}
+
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 150px;
+height: 200px;
+}
+
+.top-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 1em;
+line-height: 1em;
+color: #FFF;
+}
+
+.bot-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 1em;
+line-height: 1em;
+color: #FFF;
+}
+
+.learning-list {
+color: #FFF;
+list-style: sans-serif;
+text-align: center;
+font-size: 1em;
+margin-top: 9%;
+}
+
+.learning-list li {
+display: inline-block;
+text-align: center;
+padding: 3px;
+font-weight: bold;
+font-size: 1em;
+color: #FFF;
+}
+
+#form-main{
+width:100%;
+float:left;
+padding-top:0px;
+}
+
+#form-div{
+background-color:#380000;
+padding-bottom:35px;
+padding-left:35px;
+padding-right:35px;
+padding-top:35px;
+width: 450px;
+left: 50%;
+float: left;
+position: relative;
+margin-top:30px;
+margin-left: center;
+}
+
+.contact-input{
+color:#FF0000;
+font-family: Helvetica, sans-serif;
+font-weight: 500;
+font-size: 5px;
+line-height: 8px;
+background-color: #000000;
+padding: 2px 2px 2px 2px;
+margin-bottom: 2px;
+width:100%;
+}
+
+.contact-input:focus{
+background: #fff;
+border: 1px solid;
+color: #600000;
+padding: 2px 2px 2px 2px;
+}
+
+.focused{
+color: #fff;
+border: #fff 3px solid;
+}
+
+textarea{
+width: 100%;
+height: 100px;
+line-height:150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus{
+background-color: white;
+}
+
+button-black{
+font-family: Helvetica, Arial, sans-serif;
+float:left;
+width: 100%;
+cursor: hand;
+color:white;
+font-size: 24px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-weight: 700;
+}
+
+#button-black:hover(
+background-color: #000099;
+color:#000099;
+}
+
+.submit:hover{
+color:#333399;
+ }
+ 
+}
+
+/*Extra Small Devices, Phones */
+@media only screen and (min-width: 480px)
+{
+h1 {
+text-align: center;
+font-size : 1.2em;
+margin-top: 5%;
+color: #FFF;
+}
+
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 160px;
+height: 200px;
+}
+
+.top-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 1.2em;
+line-height: 1.2em;
+color: #FFF;
+}
+
+.bot-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 1.2em;
+line-height: 1.2em;
+color: #FFF;
+}
+
+.learning-list {
+color: #FFF;
+list-style: sans-serif;
+text-align: center;
+font-size: 1em;
+margin-top: 9%;
+}
+
+.learning-list li {
+display: inline-block;
+text-align: center;
+padding: 3px;
+font-weight: bold;
+font-size: 1em;
+color: #FFF;
+}
+
+#form-main{
+width:100%;
+float:left;
+padding-top:0px;
+}
+
+#form-div{
+background-color:#380000;
+padding-bottom:35px;
+padding-left:35px;
+padding-right:35px;
+padding-top:35px;
+width: 450px;
+left: 50%;
+float: left;
+position: relative;
+margin-top:30px;
+margin-left: center;
+}
+
+.contact-input{
+color:#FF0000;
+font-family: Helvetica, sans-serif;
+font-weight: 500;
+font-size: 5px;
+line-height: 8px;
+background-color: #000000;
+padding: 2px 2px 2px 2px;
+margin-bottom: 2px;
+width:100%;
+}
+
+.contact-input:focus{
+background: #fff;
+border: 1px solid;
+color: #600000;
+padding: 2px 2px 2px 2px;
+}
+
+.focused{
+color: #fff;
+border: #fff 3px solid;
+}
+
+textarea{
+width: 100%;
+height: 100px;
+line-height:150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus{
+background-color: white;
+}
+
+button-black{
+font-family: Helvetica, Arial, sans-serif;
+float:left;
+width: 100%;
+cursor: hand;
+color:white;
+font-size: 24px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-weight: 700;
+}
+
+#button-black:hover(
+background-color: #000099;
+color:#000099;
+}
+
+.submit:hover{
+color:#333399;
+ }
+ 
+}
+
+/*Small Devices, Tablets */
+@media only screen and (min-width: 768px)
+{
+h1 {
+text-align: center;
+font-size : 1.5em;
+margin-top: 5%;
+color: #FFF;
+}
+
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 200px;
+height: 250px;
+}
+
+.top-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 1.5em;
+line-height: 1.5em;
+color: #FFF;
+}
+
+.bot-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 1.5em;
+line-height: 1.5em;
+color: #FFF;
+}
+
+.learning-list {
+color: #FFF;
+list-style: sans-serif;
+text-align: center;
+font-size: 1.5em;
+margin-top: 9%;
+}
+
+.learning-list li {
+display: inline-block;
+text-align: center;
+padding: 3px;
+font-weight: bold;
+font-size: 1.5em;
+color: #FFF;
+}
+
+#form-main{
+width:100%;
+float:left;
+padding-top:0px;
+}
+
+#form-div{
+background-color:#380000;
+padding-bottom:35px;
+padding-left:35px;
+padding-right:35px;
+padding-top:35px;
+width: 450px;
+left: 50%;
+float: left;
+position: relative;
+margin-top:30px;
+margin-left: center;
+}
+
+.contact-input{
+color:#FF0000;
+font-family: Helvetica, sans-serif;
+font-weight: 500;
+font-size: 6px;
+line-height: 8px;
+background-color: #000000;
+padding: 2px 2px 2px 2px;
+margin-bottom: 2px;
+width:100%;
+}
+
+.contact-input:focus{
+background: #fff;
+border: 1px solid;
+color: #600000;
+padding: 2px 2px 2px 2px;
+}
+
+.focused{
+color: #fff;
+border: #fff 3px solid;
+}
+
+textarea{
+width: 100%;
+height: 100px;
+line-height:150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus{
+background-color: white;
+}
+
+button-black{
+font-family: Helvetica, Arial, sans-serif;
+float:left;
+width: 100%;
+cursor: hand;
+color:white;
+font-size: 24px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-weight: 700;
+}
+
+#button-black:hover(
+background-color: #000099;
+color:#000099;
+}
+
+.submit:hover{
+color:#333399;
+ }
+ 
+}
+
+/*Medium Devices, Desktops */
+@media only screen and (min-width: 992px)
+{
+h1 {
+text-align: center;
+font-size : 2em;
+margin-top: 5%;
+color: #FFF;
+}
+
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 200px;
+height: 300px;
+}
+
+.top-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 2em;
+line-height: 2em;
+color: #FFF;
+}
+
+.bot-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 2em;
+line-height: 2em;
+color: #FFF;
+}
+
+.learning-list {
+color: #FFF;
+list-style: sans-serif;
+text-align: center;
+font-size: 2em;
+margin-top: 9%;
+}
+
+.learning-list li {
+display: inline-block;
+text-align: center;
+padding: 3px;
+font-weight: bold;
+font-size: 2em;
+color: #FFF;
+}
+
+#form-main{
+width:100%;
+float:left;
+padding-top:0px;
+}
+
+#form-div{
+background-color:#380000;
+padding-bottom:35px;
+padding-left:35px;
+padding-right:35px;
+padding-top:35px;
+width: 450px;
+left: 50%;
+float: left;
+position: relative;
+margin-top:30px;
+margin-left: center;
+}
+
+.contact-input{
+color:#FF0000;
+font-family: Helvetica, sans-serif;
+font-weight: 500;
+font-size: 5px;
+line-height: 8px;
+background-color: #000000;
+padding: 2px 2px 2px 2px;
+margin-bottom: 2px;
+width:100%;
+}
+
+.contact-input:focus{
+background: #fff;
+border: 1px solid;
+color: #600000;
+padding: 2px 2px 2px 2px;
+}
+
+.focused{
+color: #fff;
+border: #fff 3px solid;
+}
+
+textarea{
+width: 100%;
+height: 100px;
+line-height:150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus{
+background-color: white;
+}
+
+button-black{
+font-family: Helvetica, Arial, sans-serif;
+float:left;
+width: 100%;
+cursor: hand;
+color:white;
+font-size: 24px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-weight: 800;
+}
+
+#button-black:hover(
+background-color: #000099;
+color:#000099;
+}
+
+.submit:hover{
+color:#333399;
+ }
+ }
+
+/*Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px)
 {
 
-     h1
-    {
-	text-align: center;
-	font-size: 1.5em;
-	margin-top: 5%;
-	color: #FFF;
-    }
-
-    img {
-    display: block;
-	margin: 0 auto;
-	margin-top: 7%;
-	width: 100px;
-	height: auto;
-	}
-	
-
-    p {
-    font-size: 2.5em;
-	color: #FFF;
-    }
-	
-	.font-set {
+img {
 display: block;
-position: relative;
 margin: 0 auto;
+margin-top: 3%;
+width: 200px;
+height: 300px;
+}
+
+.top-p {
 text-align: center;
-}
-    
-	.font-set .iPhone {
-  font-family: 'Courgette', cursive;
-  
-  margin-top: 20px;
-}
-
-    .home-wrapper
-    {
-        position: relative;
-
-        display: block;
-
-        width: 100%;
-        height: 100%;
-        margin: 0 auto;
-
-        background-image:url("img/background-image.png");
-    }
+margin-top: 3%;
+margin-left: 20%;
+margin-right: 20%;
+font-size: 1.5em;
+line-height: 1.5em;
+color: #FFF;
 }
 
-<!--/* Extra Small Devices, Phones */-->
-@media only screen and (min-width : 480px)
-{
- h1
-    {
-        font-size: 8em;
+.bot-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 20%;
+margin-right: 20%;
+font-size: 1.5em;
+line-height: 1.5em;
+color: #FFF;
+}
 
-        color: #FFF;
-    }
+.learning-list {
+color: #FFF;
+list-style: sans-serif;
+text-align: center;
+font-size: 1.5em;
+margin-top: 9%;
+}
 
-    h2 {
-      font-size: 6em;
+.learning-list li {
+display: inline-block;
+text-align: center;
+padding: 3px;
+font-weight: bold;
+font-size: 1em;
+color: #FFF;
+}
 
-      color: #FFF;
-    }
-	
+#form-main{
+width:100%;
+float:left;
+padding-top:0px;
+}
 
-    p {
-      font-size: 3em;
-
-      color: #FFF;
-    }
-	
-	.font-set {
-display: block;
+#form-div{
+background-color:rgba(72,72,72,0.4);
+padding-bottom:35px;
+padding-left:35px;
+padding-right:35px;
+padding-top:35px;
+width: 450px;
+left: 50%;
+float: left;
 position: relative;
-margin: 0 auto;
-text-align: center;
-}
-    
-	.font-set .iPhone {
-  font-family: 'Courgette', cursive;
-  
-  margin-top: 20px;
+margin-top:30px;
+margin-left: center;
 }
 
-    .home-wrapper
-    {
-        position: relative;
-
-        display: block;
-
-        width: 100%;
-        height: 100%;
-        margin: 0 auto;
-
-        background-image:url("img/background-image.png");
-    
+.contact-input{
+color:#FF0000;
+font-family: Helvetica, sans-serif;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+background-color: #000000;
+padding: 10px 10px 10px 10px;
+margin-bottom: 10px;
+width:100%;
 }
 
-<!--/* Small Devices, Tablets */-->
-@media only screen and (min-width : 768px)
-{
-h1
-    {
-        font-size: 9em;
-
-        color: #FFF;
-    }
-
-    h2 {
-      font-size: 7em;
-
-      color: #FFF;
-    }
-	
-
-    p {
-      font-size: 4em;
-
-      color: #FFF;
-    }
-
-	.font-set {
-display: block;
-position: relative;
-margin: 0 auto;
-text-align: center;
-}
-    
-	.font-set .iPhone {
-  font-family: 'Courgette', cursive;
-  
-  margin-top: 20px;
+.contact-input:focus{
+background: #fff;
+border: 1px solid;
+color: #600000;
+padding: 10px 10px 10px 10px;
 }
 
-    .home-wrapper
-    {
-        position: relative;
-
-        display: block;
-
-        width: 100%;
-        height: 100%;
-        margin: 0 auto;
-
-        background-image:url("img/background-image.png");
-    
+.focused{
+color: #fff;
+border: #fff 3px solid;
 }
 
-<!--/* Medium Devices, Desktops */-->
-@media only screen and (min-width : 992px)
-{
-h1
-    {
-        font-size: 9em;
-
-        color: #FFF;
-    }
-
-    h2 {
-      font-size: 6emem;
-
-      color: #FFF;
-    }
-
-    p {
-      font-size: 5em;
-
-      color: #FFF;
-    }
-	
-	.font-set {
-display: block;
-position: relative;
-margin: 0 auto;
-text-align: center;
+textarea{
+width: 100;
+height: 150px;
+line-height:150%;
 }
 
-.font-set .Wide Screens {
-font-family: "Roboto", sans-serif;
+input:hover, textarea:hover,
+input:focus, textarea:focus{
+background-color: white;
 }
 
-    .home-wrapper
-    {
-        position: relative;
-
-        display: block;
-
-        width: 100%;
-        height: 100%;
-        margin: 0 auto;
-
-        background-image:url("img/background-image.png");
-    }
+button-black{
+font-family: Helvetica, Arial, sans-serif;
+float:left;
+width: 100%;
+cursor: hand;
+color:white;
+font-size: 24px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-weight: 700;
 }
 
-<!--/* Large Devices, Wide Screens */-->
-@media only screen and (min-width : 1200px)
-{
-h1
-    {
-        font-size: 11em;
-
-        color: #FFF;
-    }
-
-    h2 {
-      font-size: 9em;
-
-      color: #FFF;
-    }
-
-    p {
-      font-size: 6em;
-
-      color: #FFF;
-    }
-	
-	.font-set {
-display: block;
-position: relative;
-margin: 0 auto;
-text-align: center;
+#button-black:hover(
+background-color: #000099;
+color:#000099;
 }
 
-.font-set .Wide Screens {
-font-family: "Roboto", sans-serif;
-}
-
-    .home-wrapper
-    {
-        position: relative;
-
-        display: block;
-
-        width: 100%;
-        height: 100%;
-        margin: 0 auto;
-
-        background-image:url("img/background-image.png");
-    
+.submit:hover{
+color:#333399;
+ }
+ 
 }
 <!--background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
 url(../img/background-image.png) no-repeat center center fixed;
@@ -277,7 +699,7 @@ background-repeat: repeat;*/-->
 <nav class="navbar">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -295,11 +717,8 @@ background-repeat: repeat;*/-->
   </div>
 </nav>
 <div class="container">
-<div class="about"/>
-<div class="font-set">
-<h1 class="font-1">About me</h1>
-<h2 class="font-2">Jay Patel</h2>
-</div>
+<div class="about" id="about">
+<h1>About me</h1>
 <img src="img/Image Jay.png" alt="Picture about me" title="Jay Patel" />
 <p class="top-p">My name is Jay Patel and I am a Junior at the University of Toledo. My major is Computer Science and Engineering Technology. I work in the IT Department at the University of Toledo.
 Programing skills learning currently: </p>
@@ -310,20 +729,22 @@ Programing skills learning currently: </p>
 </ul>
 <p class="bot-p">In my spare time I like to travel, listen to music, cook, play sports and sleep. Favourite quote: "It's very good to be important, but it's more important to be good."-ShahRukh Khan</p>
 </div>
-<div class="contact">
+<div class="contact" id="contact">
+<div id="form-main">
 <div id="form-div">
-<form class="Contact Form" id="form">
-<p class="Name">
-<input name="Name" type="text" class="contact-input" placeholder="Name" id="Name"/>
+<form class="form" id="form1">
+<p class="name">
+<input name="name" type="text" class="contact-input" placeholder="Name" id="name" data-placement="right" data-container="body"/>
 </p>
-<p class="Email">
-<input name="Email" type="text" class="contact-input" placeholder="Email" id="Email"/>
+<p class="email">
+<input name="email" type="text" class="contact-input" placeholder="Email" data-placement="right" data-container="body"/>
 </p>
-<p class="Comment">
-<textarea name="Comment" type="text" class="contact-input" placeholder="Comment" id="Comment"></textarea>
+<p class="text">
+<textarea name="text" class="contact-input" placeholder="Comment" id="comment" placeholder="Comment" data-placement="right" data-container="body"></textarea>
 </p>
 <div class="submit"
-<input type="submit" value="SEND" id="button-blue"/>
+<input type="submit" value="SEND" id="button-black"/>
+<div class="ease"></div>
 </div>
 </form>
 </div>

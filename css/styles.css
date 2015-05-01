@@ -1,3 +1,25 @@
+<html>
+<head>
+<title>Jay Patel</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link href="css/styles.css" type="text/css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,900' rel='stylesheet' type='text/css'>
+<meta name="title" content="Coding"/>
+<meta name="author" content="Jay Patel"/>
+<meta name="description" content="Portfolio site"/>
+<meta name="keywords" content="html, css, portfolio, resume, web design"/>
+<meta property="og:tittle" content="My website"/>
+<meta property="og:type" content="Website"/>
+<meta property="og:url" content="https://www.facebook.com/jay.patel.714"/>
+<meta property="og:description" content="My Facebook Profile"/>
+
+<style>
+body{
+background-image:url("img/background-image.png");
+}
+
+
 html {
 background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
 url(../img/wooden-floor.png) no-repeat center center fixed;
@@ -6,44 +28,745 @@ background-repeat: repeat;
 }
 body {
 font-family: Helvetica, serif, cursive;
+width: 100%;
+height: 100%;
 }
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px)
+{
 h1 {
 text-align: center;
+font-size : 1em;
 margin-top: 5%;
 color: #FFF;
 }
+
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 150px;
+height: 200px;
+}
+
+.top-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 1em;
+line-height: 1em;
+color: #FFF;
+}
+
+.bot-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 1em;
+line-height: 1em;
+color: #FFF;
+}
+
+.learning-list {
+color: #FFF;
+list-style: sans-serif;
+text-align: center;
+font-size: 1em;
+margin-top: 9%;
+}
+
+.learning-list li {
+display: inline-block;
+text-align: center;
+padding: 3px;
+font-weight: bold;
+font-size: 1em;
+color: #FFF;
+}
+
+#form-main{
+width:100%;
+float:left;
+padding-top:0px;
+}
+
+#form-div{
+background-color:#380000;
+padding-bottom:35px;
+padding-left:35px;
+padding-right:35px;
+padding-top:35px;
+width: 450px;
+left: 50%;
+float: left;
+position: relative;
+margin-top:30px;
+margin-left: center;
+}
+
+.contact-input{
+color:#FF0000;
+font-family: Helvetica, sans-serif;
+font-weight: 500;
+font-size: 5px;
+line-height: 8px;
+background-color: #000000;
+padding: 2px 2px 2px 2px;
+margin-bottom: 2px;
+width:100%;
+}
+
+.contact-input:focus{
+background: #fff;
+border: 1px solid;
+color: #600000;
+padding: 2px 2px 2px 2px;
+}
+
+.focused{
+color: #fff;
+border: #fff 3px solid;
+}
+
+textarea{
+width: 100%;
+height: 100px;
+line-height:150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus{
+background-color: white;
+}
+
+button-black{
+font-family: Helvetica, Arial, sans-serif;
+float:left;
+width: 100%;
+cursor: hand;
+color:white;
+font-size: 24px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-weight: 700;
+}
+
+#button-black:hover(
+background-color: #000099;
+color:#000099;
+}
+
+.submit:hover{
+color:#333399;
+ }
+ 
+}
+
+/*Extra Small Devices, Phones */
+@media only screen and (min-width: 480px)
+{
+h1 {
+text-align: center;
+font-size : 1.2em;
+margin-top: 5%;
+color: #FFF;
+}
+
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 160px;
+height: 200px;
+}
+
+.top-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 1.2em;
+line-height: 1.2em;
+color: #FFF;
+}
+
+.bot-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 1.2em;
+line-height: 1.2em;
+color: #FFF;
+}
+
+.learning-list {
+color: #FFF;
+list-style: sans-serif;
+text-align: center;
+font-size: 1em;
+margin-top: 9%;
+}
+
+.learning-list li {
+display: inline-block;
+text-align: center;
+padding: 3px;
+font-weight: bold;
+font-size: 1em;
+color: #FFF;
+}
+
+#form-main{
+width:100%;
+float:left;
+padding-top:0px;
+}
+
+#form-div{
+background-color:#380000;
+padding-bottom:35px;
+padding-left:35px;
+padding-right:35px;
+padding-top:35px;
+width: 450px;
+left: 50%;
+float: left;
+position: relative;
+margin-top:30px;
+margin-left: center;
+}
+
+.contact-input{
+color:#FF0000;
+font-family: Helvetica, sans-serif;
+font-weight: 500;
+font-size: 5px;
+line-height: 8px;
+background-color: #000000;
+padding: 2px 2px 2px 2px;
+margin-bottom: 2px;
+width:100%;
+}
+
+.contact-input:focus{
+background: #fff;
+border: 1px solid;
+color: #600000;
+padding: 2px 2px 2px 2px;
+}
+
+.focused{
+color: #fff;
+border: #fff 3px solid;
+}
+
+textarea{
+width: 100%;
+height: 100px;
+line-height:150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus{
+background-color: white;
+}
+
+button-black{
+font-family: Helvetica, Arial, sans-serif;
+float:left;
+width: 100%;
+cursor: hand;
+color:white;
+font-size: 24px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-weight: 700;
+}
+
+#button-black:hover(
+background-color: #000099;
+color:#000099;
+}
+
+.submit:hover{
+color:#333399;
+ }
+ 
+}
+
+/*Small Devices, Tablets */
+@media only screen and (min-width: 768px)
+{
+h1 {
+text-align: center;
+font-size : 1.5em;
+margin-top: 5%;
+color: #FFF;
+}
+
 img {
 display: block;
 margin: 0 auto;
 margin-top: 3%;
 width: 200px;
-height: 200px;
+height: 250px;
 }
+
 .top-p {
-text-align: justify;
-margin-top: 5%;
-margin-left: 20%;
-margin-right: 20%;
-line-height: 2em;
-color: #FFF;
-}
-.bot-p {
-text-align: justify;
-margin-top: 3%;
-margin-left: 20%;
-margin-right: 20%;
-line-height: 2em;
-color: #FFF;
-}
-.skills-list {
-color: #FFF;
-list-style: none;
 text-align: center;
 margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 1.5em;
+line-height: 1.5em;
+color: #FFF;
 }
-.skills-list li {
+
+.bot-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 1.5em;
+line-height: 1.5em;
+color: #FFF;
+}
+
+.learning-list {
+color: #FFF;
+list-style: sans-serif;
+text-align: center;
+font-size: 1.5em;
+margin-top: 9%;
+}
+
+.learning-list li {
 display: inline-block;
 text-align: center;
-padding: 10px;
+padding: 3px;
 font-weight: bold;
+font-size: 1.5em;
+color: #FFF;
 }
+
+#form-main{
+width:100%;
+float:left;
+padding-top:0px;
+}
+
+#form-div{
+background-color:#380000;
+padding-bottom:35px;
+padding-left:35px;
+padding-right:35px;
+padding-top:35px;
+width: 450px;
+left: 50%;
+float: left;
+position: relative;
+margin-top:30px;
+margin-left: center;
+}
+
+.contact-input{
+color:#FF0000;
+font-family: Helvetica, sans-serif;
+font-weight: 500;
+font-size: 6px;
+line-height: 8px;
+background-color: #000000;
+padding: 2px 2px 2px 2px;
+margin-bottom: 2px;
+width:100%;
+}
+
+.contact-input:focus{
+background: #fff;
+border: 1px solid;
+color: #600000;
+padding: 2px 2px 2px 2px;
+}
+
+.focused{
+color: #fff;
+border: #fff 3px solid;
+}
+
+textarea{
+width: 100%;
+height: 100px;
+line-height:150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus{
+background-color: white;
+}
+
+button-black{
+font-family: Helvetica, Arial, sans-serif;
+float:left;
+width: 100%;
+cursor: hand;
+color:white;
+font-size: 24px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-weight: 700;
+}
+
+#button-black:hover(
+background-color: #000099;
+color:#000099;
+}
+
+.submit:hover{
+color:#333399;
+ }
+ 
+}
+
+/*Medium Devices, Desktops */
+@media only screen and (min-width: 992px)
+{
+h1 {
+text-align: center;
+font-size : 2em;
+margin-top: 5%;
+color: #FFF;
+}
+
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 200px;
+height: 300px;
+}
+
+.top-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 2em;
+line-height: 2em;
+color: #FFF;
+}
+
+.bot-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 5%;
+margin-right: 5%;
+font-size: 2em;
+line-height: 2em;
+color: #FFF;
+}
+
+.learning-list {
+color: #FFF;
+list-style: sans-serif;
+text-align: center;
+font-size: 2em;
+margin-top: 9%;
+}
+
+.learning-list li {
+display: inline-block;
+text-align: center;
+padding: 3px;
+font-weight: bold;
+font-size: 2em;
+color: #FFF;
+}
+
+#form-main{
+width:100%;
+float:left;
+padding-top:0px;
+}
+
+#form-div{
+background-color:#380000;
+padding-bottom:35px;
+padding-left:35px;
+padding-right:35px;
+padding-top:35px;
+width: 450px;
+left: 50%;
+float: left;
+position: relative;
+margin-top:30px;
+margin-left: center;
+}
+
+.contact-input{
+color:#FF0000;
+font-family: Helvetica, sans-serif;
+font-weight: 500;
+font-size: 5px;
+line-height: 8px;
+background-color: #000000;
+padding: 2px 2px 2px 2px;
+margin-bottom: 2px;
+width:100%;
+}
+
+.contact-input:focus{
+background: #fff;
+border: 1px solid;
+color: #600000;
+padding: 2px 2px 2px 2px;
+}
+
+.focused{
+color: #fff;
+border: #fff 3px solid;
+}
+
+textarea{
+width: 100%;
+height: 100px;
+line-height:150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus{
+background-color: white;
+}
+
+button-black{
+font-family: Helvetica, Arial, sans-serif;
+float:left;
+width: 100%;
+cursor: hand;
+color:white;
+font-size: 24px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-weight: 800;
+}
+
+#button-black:hover(
+background-color: #000099;
+color:#000099;
+}
+
+.submit:hover{
+color:#333399;
+ }
+ }
+
+/*Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px)
+{
+
+img {
+display: block;
+margin: 0 auto;
+margin-top: 3%;
+width: 200px;
+height: 300px;
+}
+
+.top-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 20%;
+margin-right: 20%;
+font-size: 1.5em;
+line-height: 1.5em;
+color: #FFF;
+}
+
+.bot-p {
+text-align: center;
+margin-top: 3%;
+margin-left: 20%;
+margin-right: 20%;
+font-size: 1.5em;
+line-height: 1.5em;
+color: #FFF;
+}
+
+.learning-list {
+color: #FFF;
+list-style: sans-serif;
+text-align: center;
+font-size: 1.5em;
+margin-top: 9%;
+}
+
+.learning-list li {
+display: inline-block;
+text-align: center;
+padding: 3px;
+font-weight: bold;
+font-size: 1em;
+color: #FFF;
+}
+
+#form-main{
+width:100%;
+float:left;
+padding-top:0px;
+}
+
+#form-div{
+background-color:rgba(72,72,72,0.4);
+padding-bottom:35px;
+padding-left:35px;
+padding-right:35px;
+padding-top:35px;
+width: 450px;
+left: 50%;
+float: left;
+position: relative;
+margin-top:30px;
+margin-left: center;
+}
+
+.contact-input{
+color:#FF0000;
+font-family: Helvetica, sans-serif;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+background-color: #000000;
+padding: 10px 10px 10px 10px;
+margin-bottom: 10px;
+width:100%;
+}
+
+.contact-input:focus{
+background: #fff;
+border: 1px solid;
+color: #600000;
+padding: 10px 10px 10px 10px;
+}
+
+.focused{
+color: #fff;
+border: #fff 3px solid;
+}
+
+textarea{
+width: 100;
+height: 150px;
+line-height:150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus{
+background-color: white;
+}
+
+button-black{
+font-family: Helvetica, Arial, sans-serif;
+float:left;
+width: 100%;
+cursor: hand;
+color:white;
+font-size: 24px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-weight: 700;
+}
+
+#button-black:hover(
+background-color: #000099;
+color:#000099;
+}
+
+.submit:hover{
+color:#333399;
+ }
+ 
+}
+<!--background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+url(../img/background-image.png) no-repeat center center fixed;
+background-size: 100% auto;
+background-repeat: repeat;*/-->
+</style>
+</head>
+<body>
+<nav class="navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Jay Patel</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+<div class="about" id="about">
+<h1>About me</h1>
+<img src="img/Image Jay.png" alt="Picture about me" title="Jay Patel" />
+<p class="top-p">My name is Jay Patel and I am a Junior at the University of Toledo. My major is Computer Science and Engineering Technology. I work in the IT Department at the University of Toledo.
+Programing skills learning currently: </p>
+<ul class="learning-list">
+<li>C++</li>
+<li>Java</li>
+<li>Website Design</li>
+</ul>
+<p class="bot-p">In my spare time I like to travel, listen to music, cook, play sports and sleep. Favourite quote: "It's very good to be important, but it's more important to be good."-ShahRukh Khan</p>
+</div>
+<div class="contact" id="contact">
+<div id="form-main">
+<div id="form-div">
+<form class="form" id="form1">
+<p class="name">
+<input name="name" type="text" class="contact-input" placeholder="Name" id="name" data-placement="right" data-container="body"/>
+</p>
+<p class="email">
+<input name="email" type="text" class="contact-input" placeholder="Email" data-placement="right" data-container="body"/>
+</p>
+<p class="text">
+<textarea name="text" class="contact-input" placeholder="Comment" id="comment" placeholder="Comment" data-placement="right" data-container="body"></textarea>
+</p>
+<div class="submit"
+<input type="submit" value="SEND" id="button-black"/>
+<div class="ease"></div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/functions.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61922232-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<body>
+</html>
+
+
+
+
+
+
